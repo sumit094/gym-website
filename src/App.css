@@ -131,12 +131,18 @@ header p {
 }
 
 .workout_session {
+  
   min-height: 100vh;
   display: flex;
   max-width: 1500px;
   margin: 0 auto;
   padding: 100px 0 50px 0;
   gap: 75px;
+
+}
+.bootcamps div{
+  color: black;
+  margin-top: 20px;
 }
 .workout_session .wrapper {
   flex: 1;
@@ -159,7 +165,7 @@ header p {
   gap: 30px;
 }
 .workout_session .wrapper .bootcamps div {
-  border: 1px solid gray;
+  border: 1px solid rgb(38, 36, 36);
   border-radius: 5px;
   padding: 20px 10px;
   transition: 0.3s;
@@ -168,15 +174,15 @@ header p {
   gap: 12px;
 }
 .workout_session .wrapper .bootcamps div:hover {
-  background: #111;
+  background:#f9f9f9;
   transition: 0.3s;
 }
 .workout_session .wrapper .bootcamps div:hover h4 {
-  color: #0095ff;
+  color: black;
   transition: 0.3s;
 }
 .workout_session .wrapper .bootcamps div:hover p {
-  color: whitesmoke;
+  color: black;
   transition: 0.3s;
 }
 @media (max-width: 1520px) {
