@@ -131,7 +131,7 @@ header p {
 }
 
 .workout_session {
-  
+  /* background-color: #beb3b3; */
   min-height: 100vh;
   display: flex;
   max-width: 1500px;

@@ -25,7 +25,7 @@ const Pricing = () => {
   ]
   return (
     <section className='pricing'>
-      <h1>AKIT & AKSU FITNESS PLANS</h1>
+      <h1>FITNESS FREAK GYM</h1>
       <div className="wrapper">
         {
           pricing.map(element=>{
